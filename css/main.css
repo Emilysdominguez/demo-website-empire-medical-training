@@ -1,0 +1,597 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+head {
+    display: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    display: block;
+}
+
+header {
+    width: 100%;
+
+}
+
+/* STYLES | TOP-NAVBAR */
+
+#top-navbar {
+    background-color: #313131;
+    color: white;
+    position: relative;
+}
+
+.top-navbar {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.box-top-nav-text-start {
+    text-align: start;
+}
+
+.top-nav-text-phone {
+    font-weight: 500;
+}
+
+.box-top-nav-text-center {
+    text-align: center;
+}
+
+.box-top-nav-text-signin {
+    text-align: end;
+}
+
+/* END | TOP-NAVBAR */
+
+/* STYLES | NAVBAR */
+
+#navbar {
+    background-color: #171717;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    border-bottom: 4px solid #464F9E;
+    color: gray;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../assets/icons/icon-menu.svg);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.btn-nav {
+    background-color: #39BAAB;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.btn-nav:hover {
+    color: white;
+    border: 0;
+}
+
+/* END | NAVBAR */
+
+/* STYLES | SECTION INTRODUCTION */
+
+#introduction-section {
+    background-color: white;
+}
+
+.box-introduction {
+    text-align: center;
+}
+
+.text-big {
+    color: #39BAAB;
+    font-weight: bold;
+    margin: 0 20px 10px;
+    display: block;
+}
+
+.text-mini {
+    padding: 0 5px;
+    font-weight: 500;
+    display: block;
+}
+
+.subtitle-introduction {
+    text-align: center;
+    font-weight: 500;
+    display: block;
+}
+
+.title-section {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.text-why-choose {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.btn {
+    background-color: #39BAAB;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.btn:hover {
+    background-color: #329F92;
+    color: white;
+}
+
+.btn-nule {
+    color: black;
+    text-decoration: none;
+}
+
+/* END | SECTION INTRODUCTION*/
+
+/* STYLES | TABLE PRICES */
+
+#price-section {
+    background-color: black;
+}
+
+.table {
+    color: white;
+    vertical-align: middle;
+}
+
+.title-table {
+    border: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.bnt-table-top {
+    text-align: center;
+    border: 0;
+    vertical-align: middle;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 0;
+    text-decoration: none;
+}
+
+.btn-transparent-table {
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn-transparent-table:hover {
+    background-color: rgb(20, 22, 25);
+    color: white;
+    border: 1px solid #20675E;
+}
+
+.title-price-table {
+    color: white;
+}
+
+.text-subtitle-table {
+    color: #828282;
+    border: 0;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.icon-subtitle-table {
+    width: 20px;
+    height: 20px;
+}
+
+.text-subtitle-table-description {
+    color: #828282;
+    border: 0;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+.text-subtitle-table-white {
+    color: white;
+}
+
+.table-box {
+    border: 0;
+}
+
+.table-box-gray {
+    background-color: white;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.table-buttom {
+    text-align: center;
+    border: 0;
+}
+
+.text-item-cell {
+    font-weight: 400;
+    border-color: #1D1D1D;
+}
+
+.text-item-description {
+    text-align: center;
+    border-color: #1D1D1D;
+}
+
+.text-item-description-inborder {
+    text-align: center;
+    border: 0;
+}
+
+.link-table {
+    color: white;
+}
+
+.link-table:hover {
+    color: white;
+}
+
+.btn-table-bottom {
+    text-align: center;
+    border: 0;
+}
+
+/* END | TABLE PRICES */
+
+/* STYLES | WORKSHOPS */
+
+#navbar-workshops-section {
+    background-color: white;
+    text-align: center;
+}
+
+.title-section-workshops {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.workshops-buttom {
+    position: relative;
+    margin: 0
+}
+
+.btn-workshop {
+    display: inline-block;
+    background-color: #E0E0E0;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-workshop:hover {
+    color: black;
+}
+
+.icon-menu-workshop {
+    width: 20px;
+    height: 20px;
+}
+
+/* END | WORKSHOPS */
+
+
+/* STYLES | COURSES */
+
+#courses-section {
+    background-color: white;
+    box-shadow: 0px -10px 20px -20px;
+}
+
+.box-courses-section {
+    max-width: 100ch;
+    padding-bottom: 100px;
+}
+
+.title-courses {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle-course {
+    text-align: right;
+    font-weight: 500;
+    margin: 0;
+}
+
+.icon-courses {
+    width: 24px;
+    height: 24px;
+}
+
+.row-extend {
+    padding-bottom: 10%;
+}
+
+.item-courses {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.item-courses:hover {
+    background-color: #404040;
+    color: white;
+}
+
+.link-course {
+    text-decoration: none;
+    color: #727272;
+    font-weight: bold;
+}
+
+.link-course:hover {
+    color: white;
+}
+
+/* END | COURSES */
+
+/* STYLES | METHODS */
+
+#info-methods-section {
+    background-color: #F4F4F5;
+}
+
+.description-methods {
+    margin: auto;
+    max-width: 80ch;
+}
+
+.methods-section-description {
+    margin: auto;
+    max-width: 65ch;
+}
+
+.methods-option1 {
+    text-align: center;
+    /* border-right: 2px solid;
+    border-color: #DBDBDC; */
+    width: 18rem;
+}
+
+.icon-methods {
+    width: 25px;
+    height: 25px;
+}
+
+.title-methods-option {
+    text-align: center;
+    color: #39BAAB;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.description-methods-option {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+/* END | METHODS */
+
+/* STYLES | INFO-TRAINER */
+
+.info-trainer-section {
+    padding: 0;
+}
+
+.box-col-phrase {
+    background-color: #1F1F1F;
+}
+
+.box-col-infotrainer {
+    background-color: white;
+}
+
+.description-phrase {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.description-phrase-green {
+    color: #39BAAB;
+}
+
+.name-phrase {
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+
+.job-name-phrase {
+    font-weight: 400;
+    color: white;
+    opacity: 50%;
+}
+
+.btn-phrase {
+    background-color: #39BAAB;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+/* END | INFO-TRAINER */
+
+/* STYLES | INFO-LIVE */
+
+#info-live-section {
+    background-color: #F4F4F5;
+}
+
+.btn-img-hero {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-section {
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-bottom-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60%;
+}
+
+/* END | INFO-LIVE */
+
+/* STYLES | INFO-PREREQUISITE */
+
+.info-prerequisites {
+    background-color: white;
+}
+
+/* END | INFO-PREREQUISITE */
+
+/* STYLES | INFO-UNIVERSITY */
+
+#info-university-section {
+    background-color: #F4F4F5;
+}
+
+/* END | INFO-UNIVERSITY */
+
+/* STYLES | MEMBERSHIP */
+
+.info-membership {
+    background-color: white;
+}
+
+/* END | MEMBERSHIP */
+
+/* STYLES | WHY-CHOOSE */
+
+#info-why-choose {
+    background-color: white;
+}
+
+.icon-why-choose {
+    width: 25px;
+    height: 25px;
+}
+
+.item-why-choose {
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-why-choose {
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.mini-why-choose {
+    background-color: #141618;
+    color: white;
+}
+
+.text-why-choose {
+    margin: auto;
+    color: black;
+}
+
+.img-membership {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cards {
+    margin: 15px;
+    border: 0;
+    border-radius: 5px;
+    width: 20rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* END | WHY-CHOOSE */
